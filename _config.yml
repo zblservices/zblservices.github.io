@@ -2,24 +2,23 @@
 title:
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  ZBL Services, Inc. is a privately held IT consulting firm specializing in legacy application
+  workload modernization and enterprise architecture transformation.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
+owner: ZBL Services, Inc.
+email: tim@zblservices.com
+facebook_username: zblservices
+twitter_username: timfanelli
+github_username: doctorbatch
 address:
+  - line: P.O. Box 255, Potsdam, NY 13676
   - line:
-  - line:
-  # Feel free to add more lines here 
-telephone:
-copyright:
+  # Feel free to add more lines here
+telephone: (315) 355-7295
+copyright: 2015 ZBL Services, Inc.
 
 # API settings
 google_api_key:
