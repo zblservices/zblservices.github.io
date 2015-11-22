@@ -1,0 +1,9 @@
+---
+title:  "About **doctorbatch.io**"
+date: 2015-08-16 12:00:00
+categories: magicsauce about
+---
+# About
+**doctorbatch.io** has finally arrived: <a href="https://github.com/zblservices/doctorbatch.io">Find it on GitHub!</a>
+
+**doctorbatch.io** is an API for developing batch applications in the Java programming language targetted for deployment to IBM's WebSphere Batch or WebSphere Liberty Profile's Java EE Batch runtime environments. The <b>doctorbatch.io</b> provides portability between the two runtimes by abstracting application development away from the runtime-specific API, and providing adapters for deployment.
