@@ -1,0 +1,88 @@
+---
+title:  "**doctorbatch.io** Prerequisites"
+date: 2015-08-17 12:01:00
+categories: magicsauce installation
+---
+
+# Using **doctorbatch.io**
+Once you have imported the necessary <a href="{{ site.baseurl }}/prerequisites/2015/08/17/Prerequisites.html">prerequisuites</a>, you are ready to use **doctorbatch.io**. **doctorbatch.io** is avaialble in Maven Central at the following coordinates:
+
+## Core
+The core library provides the API for the implementation of a doctorbatch.io application.
+
+### doctorbatch-io-core
+{% highlight xml %}
+<dependency>
+    <groupId>com.zblservices.doctorbatch</groupId>
+    <artifactId>doctorbatch-io-core</artifactId>
+    <version>1.0.0</version>
+</dependency>
+{% endhighlight %}
+
+## Batch Runtime Components
+The batch runtime components provide bridges so that doctorbatch.io applications can be
+executed in a provided batch runtime environment. At present, doctorbatch.io supports
+JSR-352 compatible "Java Batch" containers, such as IBM WebSphere Liberty Profile, and
+IBM WebSphere Application Server's Batch Runtime (aka "Compute Grid").
+
+### doctorbatch-io-javabatch
+{% highlight xml %}
+<dependency>
+    <groupId>com.zblservices.doctorbatch</groupId>
+    <artifactId>doctorbatch-io-javabatch</artifactId>
+    <version>1.0.0</version>
+</dependency>
+{% endhighlight %}
+
+### doctorbatch-io-websphere
+{% highlight xml %}
+<dependency>
+    <groupId>com.zblservices.doctorbatch</groupId>
+    <artifactId>doctorbatch-io-websphere</artifactId>
+    <version>1.0.0</version>
+</dependency>
+{% endhighlight %}
+
+## MVS Components
+The MVS components provide drop-in support for reading and writing from z/OS DataSets using
+the IBM JZOS library.
+
+### doctorbatch-io-mvs
+{% highlight xml %}
+<dependency>
+    <groupId>com.zblservices.doctorbatch</groupId>
+    <artifactId>doctorbatch-io-mvs</artifactId>
+    <version>1.0.0</version>
+</dependency>
+{% endhighlight %}
+
+### doctorbatch-io-javabatch-mvs
+{% highlight xml %}
+<dependency>
+    <groupId>com.zblservices.doctorbatch</groupId>
+    <artifactId>doctorbatch-io-javabatch-mvs</artifactId>
+    <version>1.0.0</version>
+</dependency>
+{% endhighlight %}
+
+### doctorbatch-io-websphere-mvs
+{% highlight xml %}
+<dependency>
+    <groupId>com.zblservices.doctorbatch</groupId>
+    <artifactId>doctorbatch-io-websphere-mvs</artifactId>
+    <version>1.0.0</version>
+</dependency>
+{% endhighlight %}
+
+## Operational Decision Manager Component
+The Operational Decision Manager component provides drop-in capability to consume
+business rules applications as the processing logic of your batch application.
+
+### doctorbatch-io-odm
+{% highlight xml %}
+<dependency>
+    <groupId>com.zblservices.doctorbatch</groupId>
+    <artifactId>doctorbatch-io-odm</artifactId>
+    <version>1.0.0</version>
+</dependency>
+{% endhighlight %}

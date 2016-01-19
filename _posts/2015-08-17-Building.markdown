@@ -1,0 +1,16 @@
+---
+title:  "**doctorbatch.io** Prerequisites"
+date: 2015-08-17 12:02:00
+categories: magicsauce installation
+---
+
+# Building **doctorbatch.io** From Source
+Alternatively, you can build **doctorbatch-io** from source. Please note, by default, the
+parent POM includes all submodules. If you do not have certain prerequisites available to
+you, then you will need to comment out the affected modules.
+
+{% highlight bash %}
+git clone https://github.com/zblservices/doctorbatch.io.git
+cd doctorbatch.io
+mvn install
+{% endhighlight %}

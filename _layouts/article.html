@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+<body>
+
+  {% include navigation.html %}
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 text-center">
+          <div class="service-item">
+            <span class="fa-stack fa-4x">
+            <i class="fa {{page.icon-major}} fa-stack-2x zblred"></i>
+            <i class="fa {{page.icon-minor}} fa-stack-1x white"></i>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8 text-left">
+          <h2>{{page.title}}</h2>
+          <p class="lead">{{page.subtitle}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-left">
+          {{ page.content }}
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  {% include footer.html %}
+  {% include scripts.html %}
+
+</body>
+
+</html>
