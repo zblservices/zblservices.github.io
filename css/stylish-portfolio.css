@@ -193,11 +193,22 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/interconnect.jpg) no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+}
+
+.interconnect {
+  background: url(../img/interconnect.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.saner {
+  background: url(http://saner.inf.usi.ch/img/osaka_skyline.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 /* Portfolio */
