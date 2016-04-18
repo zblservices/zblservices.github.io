@@ -204,7 +204,7 @@ hr.small {
 }
 
 .saner {
-  background: url(http://saner.inf.usi.ch/img/osaka_skyline.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(http://saner.inf.usi.ch/img/osaka_skyline.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
