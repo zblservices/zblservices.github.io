@@ -9,12 +9,12 @@ url: "" # the base hostname & protocol for your site
 
 # User setting
 owner: ZBL Services, Inc.
-email: tim@zblservices.com
+email: tfanelli@zblservices.com
 facebook_username: zblservices
 twitter_username: timfanelli
 github_username: doctorbatch
 address:
-  - line: P.O. Box 255, Potsdam, NY 13676
+  - line: P.O. Box 815, Concord, NH 03301
   - line:
   # Feel free to add more lines here
 telephone: (315) 355-7295
